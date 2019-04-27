@@ -1,0 +1,11 @@
+sudo: required
+
+services:
+  - docker
+
+before_install:
+  - docker build -t name/application .
+  - docker run -p 49160:8080 -d --name helloDocker name/application
+
+script:
+  - docker ps | grep -q helloDocker
