@@ -8,7 +8,7 @@
     },
     "dependencies": {
         "debug": ">=4.3.2",
-        "express": "^4.17.1",
+        "express": "^4.18.0",
         "fresh": ">=0.5.2",
         "mime": ">=2.5.2",
         "morgan": ">=1.9.1",
